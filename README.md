@@ -13,9 +13,13 @@ The system was built with React (Front) and Node.js (Backend).
   ```
   
 To run the server and the site run a ``` npm start or yarn start ``` in the web/server folders
+
+## React Front-End Url
+
+> http://localhost:3000
+  
   
 ## Api Reference
-
 
 ## GET: /resources
 
