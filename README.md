@@ -12,5 +12,5 @@ The system was built with React (Front) and Node.js (Backend).
   npm install or yarn
   ```
   
-To run the server and the site run a ```sh npm start or yarn start ``` in the web/server folders
+To run the server and the site run a ``` npm start or yarn start ``` in the web/server folders
   
