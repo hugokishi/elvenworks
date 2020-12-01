@@ -21,12 +21,6 @@ To run the server and the site run a ``` npm start or yarn start ``` in the web/
 
 Returns all resources registered in the bank
 
-### Request example
-
-| Param  | Param Type | DataType  | Required |
-| ------ | ---------- | --------- | -------- |
-| active | Query      | `Boolean` | **No**   |
-
 #### Request URL
 
 > http://localhost:3333/resources
