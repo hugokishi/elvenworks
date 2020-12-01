@@ -14,3 +14,65 @@ The system was built with React (Front) and Node.js (Backend).
   
 To run the server and the site run a ``` npm start or yarn start ``` in the web/server folders
   
+## Api Reference
+
+
+## GET: /resources
+
+Returns all resources registered in the bank
+
+### Request example
+
+| Param  | Param Type | DataType  | Required |
+| ------ | ---------- | --------- | -------- |
+| active | Query      | `Boolean` | **No**   |
+
+#### Request URL
+
+> http://localhost:3333/resources
+
+#### cURL
+
+```sh
+$ curl --request GET \
+  --url p://localhost:3333/resources
+```
+
+### Response example
+
+<details>
+<summary>200 OK</summary>
+
+```js
+{
+  "id": "1",
+  "name": "My Name",
+  "type": "My Type",
+  "createdAt": "My Time",
+  "updatedAt": "My Time"
+}
+```
+
+</details>
+
+<details>
+<summary>404 Not found</summary>
+
+```js
+{
+  "message": "Detalhes do erro"
+}
+```
+
+</details>
+
+<details>
+<summary>500 Internal Server Error</summary>
+
+```js
+{
+  "message": "Detalhes do erro"
+}
+```
+
+</details>
