@@ -1,11 +1,10 @@
-## Instalação
-
-Após clonar o repositório execute:
-
-  yarn
-
-ou
-
-  npm install
+# Installation
+  ```sh
+  git clone https://github.com/hugokishi/elvenworks.git
+  ```
+  After the git clone, run in server/web paste:
+  ```sh
+  npm install or yarn
+  ```
   
- dependendo do seu gerenciador de pacotes.
+  
