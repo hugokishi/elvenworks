@@ -13,6 +13,7 @@ The system was built with React (Front) and Node.js (Backend).
   ```
   
 To run the server and the site run a ``` npm start or yarn start ``` in the web and server folders
+Note: after run ```npm install or yarn``` run ```npx sequelize db:migrate or yarn sequelize db:migrate``` for run and create database.
 
 ## React Front-End Url
 
