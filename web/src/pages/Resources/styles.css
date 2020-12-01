@@ -1,0 +1,228 @@
+.container {
+  width: 100%;
+  max-width: 1180px;
+  padding: 0 30px;
+  margin: 32px auto;
+}
+
+.container header {
+  display: flex;
+  align-items: center;
+}
+
+.container header img {
+  height: 78px;
+}
+
+.container header a {
+  width: 260px;
+  margin-left: auto;
+  margin-top: 0;
+}
+
+.container header button {
+  height: 60px;
+  width: 60px;
+  border-radius: 4px;
+  border: 1px solid #dcdce6;
+  background: transparent;
+  margin-left: 16px;
+  transition: border-color 0.2s;
+}
+
+.container header button:hover {
+  border-color: #999;
+}
+
+.button {
+  width: 100%;
+  height: 60px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #dcdce6;
+  background: transparent;
+  margin-left: 16px;
+  font-size: 16px;
+  line-height: 60px;
+  color: black;
+  transition: border-color 0.2s;
+}
+.button:hover {
+  border-color: #999;
+}
+
+.container ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 12px;
+  list-style: none;
+}
+
+.container ul li {
+  background: #fff;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.container ul li strong {
+  display: block;
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #41414d;
+}
+
+.container ul li p {
+  display: block;
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #41414d;
+}
+
+.container ul li button {
+  width: 100px;
+  height: 40px;
+  margin-right: 12px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #dcdce6;
+  background: transparent;
+  font-size: 16px;
+  color: black;
+  transition: border-color 0.2s;
+}
+
+header {
+  margin-bottom: 16px;
+}
+
+
+.modal{
+  width: 700px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  outline: 0;
+}
+
+.modal-container {
+  max-width: 700px;
+  max-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h4-modal{
+  font-size: 25px;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.inpt-modal{
+  margin-bottom: 12px;
+  margin-top: 12px;
+  width: 300px;
+}
+
+.btn-modal{
+  width: 100%;
+  height: 60px;
+  background: #119427;
+  border: 0;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: filter 0.2s;
+}
+
+.btn-modal:hover{
+  border-color: #999;
+}
+
+.modal-container .content form {
+  width: 100%;
+  max-width: 450px;
+}
+
+.modal-container form input{
+  margin-top: 30px;
+}
+
+form input {
+  width: 100%;
+  height: 60px;
+  color: #333;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  padding: 0 24px;
+}
+
+form{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-delete {
+  max-width: 700px;
+  max-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  outline: 0;
+}
+
+.btn-delete{
+  width: 200px;
+  height: 60px;
+  background: #119427;
+  border: 0;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: filter 0.2s;
+  margin-left: 20px;
+}
+
+.modal-delete-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h4-modal{
+  font-size: 16px;
+  text-align: center;
+}
+
+.btn-delete-cancel{
+  width: 200px;
+  height: 60px;
+  background: #ff0000;
+  border: 0;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: filter 0.2s;
+  margin-left: 20px;
+}
