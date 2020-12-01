@@ -38,3 +38,31 @@ Register resources in the bank
 #### Request URL
 
 > http://localhost:3333/resources
+
+## Delete: /resources/:id
+
+Delete one resource in the bank
+
+| Param  | Param Type | DataType  | Required |
+| ------ | ---------- | --------- | -------- |
+| id     | query      | number    | **yes**  |
+
+
+#### Request URL
+
+> http://localhost:3333/resources/:id
+
+
+## Post: /resources/:id
+
+Update the resource
+
+| Param  | Param Type | DataType  | Required |
+| ------ | ---------- | --------- | -------- |
+| id     | query      | number    | **yes**  |
+| name   | body       | string    | **yes**  |
+| type   | body       | string    | **yes**  |
+
+#### Request URL
+
+> http://localhost:3333/resources/:id
