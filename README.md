@@ -5,7 +5,7 @@ The system was built with React (Front) and Node.js (Backend).
 
 ## Installation
   ```sh
-  git clone https://github.com/hugokishi/elvenworks.git
+  https://github.com/hugokishi/elvenworks
   ```
   After the git clone, run in folder server/web :
   ```sh
