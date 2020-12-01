@@ -7,12 +7,12 @@ The system was built with React (Front) and Node.js (Backend).
   ```sh
   https://github.com/hugokishi/elvenworks
   ```
-  After the git clone, run in folder server/web :
+  After the git clone, run in folder server and web :
   ```sh
   npm install or yarn
   ```
   
-To run the server and the site run a ``` npm start or yarn start ``` in the web/server folders
+To run the server and the site run a ``` npm start or yarn start ``` in the web and server folders
 
 ## React Front-End Url
 
